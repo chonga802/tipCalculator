@@ -14,6 +14,12 @@
 		F51BAB181C33A5D900EDA0EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F51BAB161C33A5D900EDA0EC /* LaunchScreen.storyboard */; };
 		F51BAB231C33A5D900EDA0EC /* tips2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51BAB221C33A5D900EDA0EC /* tips2Tests.swift */; };
 		F51BAB2E1C33A5D900EDA0EC /* tips2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51BAB2D1C33A5D900EDA0EC /* tips2UITests.swift */; };
+		F55D5F4C1C457063003E8B16 /* notepad-87.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F4B1C457063003E8B16 /* notepad-87.png */; };
+		F55D5F4E1C45706A003E8B16 /* notepad-180.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F4D1C45706A003E8B16 /* notepad-180.png */; };
+		F55D5F501C457072003E8B16 /* notepad-58.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F4F1C457072003E8B16 /* notepad-58.png */; };
+		F55D5F521C457078003E8B16 /* notepad-120.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F511C457078003E8B16 /* notepad-120.png */; };
+		F55D5F541C45707F003E8B16 /* notepad-80.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F531C45707F003E8B16 /* notepad-80.png */; };
+		F55E4E2D1C4CA5D70020376C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F55E4E2C1C4CA5D70020376C /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		F51BAB291C33A5D900EDA0EC /* tips2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tips2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F51BAB2D1C33A5D900EDA0EC /* tips2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tips2UITests.swift; sourceTree = "<group>"; };
 		F51BAB2F1C33A5D900EDA0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55D5F4B1C457063003E8B16 /* notepad-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-87.png"; sourceTree = "<group>"; };
+		F55D5F4D1C45706A003E8B16 /* notepad-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-180.png"; sourceTree = "<group>"; };
+		F55D5F4F1C457072003E8B16 /* notepad-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-58.png"; sourceTree = "<group>"; };
+		F55D5F511C457078003E8B16 /* notepad-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-120.png"; sourceTree = "<group>"; };
+		F55D5F531C45707F003E8B16 /* notepad-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-80.png"; sourceTree = "<group>"; };
+		F55E4E2C1C4CA5D70020376C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,12 @@
 				F51BAB141C33A5D900EDA0EC /* Assets.xcassets */,
 				F51BAB161C33A5D900EDA0EC /* LaunchScreen.storyboard */,
 				F51BAB191C33A5D900EDA0EC /* Info.plist */,
+				F55D5F4B1C457063003E8B16 /* notepad-87.png */,
+				F55D5F4D1C45706A003E8B16 /* notepad-180.png */,
+				F55D5F4F1C457072003E8B16 /* notepad-58.png */,
+				F55D5F511C457078003E8B16 /* notepad-120.png */,
+				F55E4E2C1C4CA5D70020376C /* background.jpg */,
+				F55D5F531C45707F003E8B16 /* notepad-80.png */,
 			);
 			path = tips2;
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 				TargetAttributes = {
 					F51BAB091C33A5D900EDA0EC = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 38WNHT2TM4;
 					};
 					F51BAB1D1C33A5D900EDA0EC = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -229,9 +248,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55E4E2D1C4CA5D70020376C /* background.jpg in Resources */,
+				F55D5F521C457078003E8B16 /* notepad-120.png in Resources */,
+				F55D5F541C45707F003E8B16 /* notepad-80.png in Resources */,
+				F55D5F4C1C457063003E8B16 /* notepad-87.png in Resources */,
 				F51BAB181C33A5D900EDA0EC /* LaunchScreen.storyboard in Resources */,
+				F55D5F501C457072003E8B16 /* notepad-58.png in Resources */,
 				F51BAB151C33A5D900EDA0EC /* Assets.xcassets in Resources */,
 				F51BAB131C33A5D900EDA0EC /* Main.storyboard in Resources */,
+				F55D5F4E1C45706A003E8B16 /* notepad-180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,22 +421,26 @@
 		F51BAB331C33A5D900EDA0EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christinehong.tips2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		F51BAB341C33A5D900EDA0EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.christinehong.tips2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +511,7 @@
 				F51BAB341C33A5D900EDA0EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51BAB351C33A5D900EDA0EC /* Build configuration list for PBXNativeTarget "tips2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +520,7 @@
 				F51BAB371C33A5D900EDA0EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F51BAB381C33A5D900EDA0EC /* Build configuration list for PBXNativeTarget "tips2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +529,7 @@
 				F51BAB3A1C33A5D900EDA0EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
