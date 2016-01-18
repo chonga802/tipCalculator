@@ -20,6 +20,7 @@
 		F55D5F521C457078003E8B16 /* notepad-120.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F511C457078003E8B16 /* notepad-120.png */; };
 		F55D5F541C45707F003E8B16 /* notepad-80.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F531C45707F003E8B16 /* notepad-80.png */; };
 		F55E4E2D1C4CA5D70020376C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F55E4E2C1C4CA5D70020376C /* background.jpg */; };
+		F55E4E2F1C4CDE9B0020376C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55E4E2E1C4CDE9B0020376C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		F55D5F511C457078003E8B16 /* notepad-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-120.png"; sourceTree = "<group>"; };
 		F55D5F531C45707F003E8B16 /* notepad-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-80.png"; sourceTree = "<group>"; };
 		F55E4E2C1C4CA5D70020376C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		F55E4E2E1C4CDE9B0020376C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		F51BAB0C1C33A5D900EDA0EC /* tips2 */ = {
 			isa = PBXGroup;
 			children = (
+				F55E4E301C4CDEDC0020376C /* View Controllers */,
 				F51BAB0D1C33A5D900EDA0EC /* AppDelegate.swift */,
 				F51BAB0F1C33A5D900EDA0EC /* ViewController.swift */,
 				F51BAB111C33A5D900EDA0EC /* Main.storyboard */,
@@ -141,6 +144,14 @@
 				F51BAB2F1C33A5D900EDA0EC /* Info.plist */,
 			);
 			path = tips2UITests;
+			sourceTree = "<group>";
+		};
+		F55E4E301C4CDEDC0020376C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F55E4E2E1C4CDE9B0020376C /* SettingsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +294,7 @@
 			files = (
 				F51BAB101C33A5D900EDA0EC /* ViewController.swift in Sources */,
 				F51BAB0E1C33A5D900EDA0EC /* AppDelegate.swift in Sources */,
+				F55E4E2F1C4CDE9B0020376C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

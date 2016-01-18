@@ -25,9 +25,26 @@ class ViewController: UIViewController {
         peopleField.text = "1"
         perTotalLabel.text = "0.00"
         
+        setDefaultTip()
+        
         //Looks for single or multiple taps.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
         view.addGestureRecognizer(tap)
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        // Load default tip value
+        setDefaultTip()
+    }
+    
+    func setDefaultTip(){
+        // Load default tip value
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if (defaults.objectForKey("defaultTip") != nil){
+            let currentDefaultTip = defaults.objectForKey("defaultTip") as! String
+            tipField.text = "\(currentDefaultTip)"
+        }
     }
     
     //Calls this function when the tap is recognized.
@@ -43,11 +60,8 @@ class ViewController: UIViewController {
     
     func roundDollar(val:Double) ->String {
         let total = Double(round(100*val)/100)
-        print("TOTAL ROUNDED OFF TO 2 DECIMAL POINTS=\(total)")
         let dollar:Int = Int(val)
-        print("DOLLAR=\(dollar)")
         let cents = Int(round((total - Double(dollar)) * 100))
-        print("CENTS=\(cents)")
         if cents == 0 {
             return "\(dollar).00"
         } else if cents < 0 {
@@ -63,6 +77,7 @@ class ViewController: UIViewController {
         totalLabel.text = "0.00"
         peopleField.text = "1"
         perTotalLabel.text = "0.00"
+        setDefaultTip()
     }
     
     func changeFields() {
@@ -89,6 +104,8 @@ class ViewController: UIViewController {
     @IBAction func peopleChanged(sender: AnyObject) {
         changeFields()
     }
+    
+    
     
 }
 
