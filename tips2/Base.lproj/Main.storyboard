@@ -138,7 +138,7 @@
                     <navigationItem key="navigationItem" id="8US-HJ-wLJ">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="MuO-lg-pnt">
                             <connections>
-                                <segue destination="KPo-gn-jJR" kind="modal" modalTransitionStyle="flipHorizontal" id="x6K-f8-BCC"/>
+                                <segue destination="KPo-gn-jJR" kind="modal" modalTransitionStyle="flipHorizontal" id="VTJ-rP-GCy"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -218,7 +218,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back to Calculator"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="flipHorizontal" id="O7c-8S-uVa"/>
+                                    <segue destination="b2t-5h-H1a" kind="modal" modalTransitionStyle="flipHorizontal" id="uan-Pl-qqq"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -251,10 +251,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tqm-jO-kRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="186" y="518"/>
+            <point key="canvasLocation" x="170" y="-146"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="gqV-jv-vhk"/>
-    </inferredMetricsTieBreakers>
 </document>
