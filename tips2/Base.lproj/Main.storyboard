@@ -34,15 +34,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Yyy-RF-hnW">
-                                <rect key="frame" x="190" y="117" width="98" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                <connections>
-                                    <action selector="billChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ihP-3R-hbw"/>
-                                </connections>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="qlO-zm-hda">
                                 <rect key="frame" x="190" y="167" width="98" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -128,6 +119,15 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                 <connections>
                                     <action selector="peopleChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="o0E-u5-Bh3"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="Yyy-RF-hnW">
+                                <rect key="frame" x="190" y="117" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="billChanged:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="ihP-3R-hbw"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -251,10 +251,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tqm-jO-kRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="120" y="796"/>
+            <point key="canvasLocation" x="186" y="518"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="O7c-8S-uVa"/>
+        <segue reference="gqV-jv-vhk"/>
     </inferredMetricsTieBreakers>
 </document>
