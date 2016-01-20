@@ -21,6 +21,9 @@
 		F55D5F541C45707F003E8B16 /* notepad-80.png in Resources */ = {isa = PBXBuildFile; fileRef = F55D5F531C45707F003E8B16 /* notepad-80.png */; };
 		F55E4E2D1C4CA5D70020376C /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F55E4E2C1C4CA5D70020376C /* background.jpg */; };
 		F55E4E2F1C4CDE9B0020376C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55E4E2E1C4CDE9B0020376C /* SettingsViewController.swift */; };
+		F584C6ED1C4F85F700F962D4 /* notepad-57.png in Resources */ = {isa = PBXBuildFile; fileRef = F584C6EC1C4F85F700F962D4 /* notepad-57.png */; };
+		F584C6EF1C4F85FE00F962D4 /* notepad-114.png in Resources */ = {isa = PBXBuildFile; fileRef = F584C6EE1C4F85FE00F962D4 /* notepad-114.png */; };
+		F584C6F11C4F860A00F962D4 /* notepad-29.png in Resources */ = {isa = PBXBuildFile; fileRef = F584C6F01C4F860A00F962D4 /* notepad-29.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		F55D5F531C45707F003E8B16 /* notepad-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-80.png"; sourceTree = "<group>"; };
 		F55E4E2C1C4CA5D70020376C /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		F55E4E2E1C4CDE9B0020376C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F584C6EC1C4F85F700F962D4 /* notepad-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-57.png"; sourceTree = "<group>"; };
+		F584C6EE1C4F85FE00F962D4 /* notepad-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-114.png"; sourceTree = "<group>"; };
+		F584C6F01C4F860A00F962D4 /* notepad-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notepad-29.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +124,11 @@
 				F51BAB141C33A5D900EDA0EC /* Assets.xcassets */,
 				F51BAB161C33A5D900EDA0EC /* LaunchScreen.storyboard */,
 				F51BAB191C33A5D900EDA0EC /* Info.plist */,
+				F584C6EC1C4F85F700F962D4 /* notepad-57.png */,
+				F584C6EE1C4F85FE00F962D4 /* notepad-114.png */,
 				F55D5F4B1C457063003E8B16 /* notepad-87.png */,
 				F55D5F4D1C45706A003E8B16 /* notepad-180.png */,
+				F584C6F01C4F860A00F962D4 /* notepad-29.png */,
 				F55D5F4F1C457072003E8B16 /* notepad-58.png */,
 				F55D5F511C457078003E8B16 /* notepad-120.png */,
 				F55E4E2C1C4CA5D70020376C /* background.jpg */,
@@ -263,11 +272,14 @@
 				F55D5F521C457078003E8B16 /* notepad-120.png in Resources */,
 				F55D5F541C45707F003E8B16 /* notepad-80.png in Resources */,
 				F55D5F4C1C457063003E8B16 /* notepad-87.png in Resources */,
+				F584C6F11C4F860A00F962D4 /* notepad-29.png in Resources */,
 				F51BAB181C33A5D900EDA0EC /* LaunchScreen.storyboard in Resources */,
 				F55D5F501C457072003E8B16 /* notepad-58.png in Resources */,
 				F51BAB151C33A5D900EDA0EC /* Assets.xcassets in Resources */,
 				F51BAB131C33A5D900EDA0EC /* Main.storyboard in Resources */,
 				F55D5F4E1C45706A003E8B16 /* notepad-180.png in Resources */,
+				F584C6ED1C4F85F700F962D4 /* notepad-57.png in Resources */,
+				F584C6EF1C4F85FE00F962D4 /* notepad-114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

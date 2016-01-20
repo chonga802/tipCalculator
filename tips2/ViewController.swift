@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
         billField.text = ""
         tipField.text = "15"
-        totalLabel.text = "0.00"
+        totalLabel.text = ""
         peopleField.text = "1"
-        perTotalLabel.text = "0.00"
+        perTotalLabel.text = ""
         
         getDefaultTip()
         
@@ -103,19 +103,26 @@ class ViewController: UIViewController {
         let cents = Int(round((total - Double(dollar)) * 100))
         if cents == 0 {
             return "\(dollar).00"
-        } else if cents < 0 {
+        } else if cents < 10 {
             return "\(dollar).0\(cents)"
         } else {
             return "\(dollar).\(cents)"
         }
     }
     
+    func convertCurrency(price:Double) ->String{
+        let formatter = NSNumberFormatter()
+        formatter.numberStyle = .CurrencyStyle
+        formatter.locale = NSLocale.currentLocale()
+        return formatter.stringFromNumber(price)!
+    }
+    
     @IBAction func clearFields(sender: AnyObject) {
         billField.text = ""
         tipField.text = "15"
-        totalLabel.text = "0.00"
+        totalLabel.text = ""
         peopleField.text = "1"
-        perTotalLabel.text = "0.00"
+        perTotalLabel.text = ""
         
         getDefaultTip()
         
@@ -123,9 +130,9 @@ class ViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setObject("", forKey: "setBillAmount")
         defaults.setObject(NSString(string: tipField.text!), forKey: "setTipPercentage" )
-        defaults.setObject("0.00", forKey: "setTotal" )
+        defaults.setObject("", forKey: "setTotal" )
         defaults.setObject("1", forKey: "setNumPeople" )
-        defaults.setObject("0.00", forKey: "setPerTotal" )
+        defaults.setObject("", forKey: "setPerTotal" )
         defaults.synchronize()
     }
     
@@ -135,19 +142,15 @@ class ViewController: UIViewController {
         let numPeople = NSString(string: peopleField.text!).intValue
         let tip = billAmount * Double(tipPercentage) / 100
         let total = billAmount + tip
-        let totalString = roundDollar(total)
+        let totalString = convertCurrency(total)
         let perTotal = total/Double(numPeople)
-        let perTotalString = roundDollar(perTotal)
+        let perTotalString = convertCurrency(perTotal)
         totalLabel.text = totalString
         perTotalLabel.text = perTotalString
         
         // Save entered values
         let defaults = NSUserDefaults.standardUserDefaults()
-        if billAmount == Double(0) {
-            defaults.setObject("", forKey: "setBillAmount")
-        } else {
-            defaults.setObject(roundDollar(billAmount), forKey: "setBillAmount")
-        }
+        defaults.setObject(roundDollar(billAmount), forKey: "setBillAmount")
         defaults.setObject(String(tipPercentage), forKey: "setTipPercentage" )
         defaults.setObject(totalString, forKey: "setTotal" )
         defaults.setObject(String(numPeople), forKey: "setNumPeople" )
